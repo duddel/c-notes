@@ -63,7 +63,7 @@ int sumi3(int count, ...)
     va_list args;
     va_list args2;
     va_start(args, count);
-    va_copy(args2, args); // C99
+    va_copy(args2, args); // since C99
     vsumi(count, args2);
     va_end(args); // args unused
     va_end(args2);
