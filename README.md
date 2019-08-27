@@ -1,5 +1,7 @@
 # c-notes
 
+[![Build Status](https://travis-ci.org/duddel/c-notes.svg?branch=master)](https://travis-ci.org/duddel/c-notes)
+
 Random notes related to **C** and **C++** about stuff I tend to forget.
 
 * [braced_init.cpp](braced_init.cpp) - **C++11** - _braced initializer lists_
