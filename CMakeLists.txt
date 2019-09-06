@@ -27,5 +27,9 @@ add_executable(standard
 add_executable(struct_vs_class
     struct_vs_class.cpp)
 
+add_executable(template
+    template_impl.cpp
+    template_main.cpp)
+
 add_executable(variadic
     variadic.c)
