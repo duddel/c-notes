@@ -21,6 +21,9 @@ add_executable(designated_init
 add_executable(func_pointers
     func_pointers.c)
 
+add_executable(nullptr
+    nullptr.cpp)
+
 add_executable(standard
     standard.cpp)
 
