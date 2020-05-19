@@ -12,6 +12,9 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
+add_executable(std_array
+    std_array.cpp)
+
 add_executable(braced_init
     braced_init.cpp)
 

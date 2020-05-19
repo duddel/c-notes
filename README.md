@@ -4,6 +4,7 @@
 
 Random notes related to **C** and **C++** about stuff I tend to forget.
 
+-   [std_array.cpp](std_array.cpp) - **C++11** - _fixed-size arrays_
 -   [braced_init.cpp](braced_init.cpp) - **C++11** - _braced initializer lists_
 -   [copy_move.cpp](copy_move.cpp) - **C++** - _copy- and move constructors_
 -   [designated_init.c](designated_init.c) - **C** - _designated initializers_
