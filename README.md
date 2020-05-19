@@ -5,6 +5,7 @@
 Random notes related to **C** and **C++** about stuff I tend to forget.
 
 -   [braced_init.cpp](braced_init.cpp) - **C++11** - _braced initializer lists_
+-   [copy_move.cpp](copy_move.cpp) - **C++** - _copy- and move constructors_
 -   [designated_init.c](designated_init.c) - **C** - _designated initializers_
 -   [func_pointers.c](func_pointers.c) - **C, C++** - _function pointers_
 -   [nullptr.cpp](nullptr.cpp) - **C++11** - _the nullptr keyword_

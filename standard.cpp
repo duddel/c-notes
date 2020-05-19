@@ -17,7 +17,6 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 */
-
 #include <cstdio> // printf()
 
 int main()
@@ -41,7 +40,7 @@ int main()
         printf("C++14, __cplusplus = 201402L\n");
         break;
     case 201703L:
-        printf("C++17, __cplusplus =201703L\n");
+        printf("C++17, __cplusplus = 201703L\n");
         break;
     default:
         printf("C++ unknown, __cplusplus = %liL\n", __cplusplus);

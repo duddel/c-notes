@@ -15,6 +15,9 @@ set(CMAKE_C_EXTENSIONS OFF)
 add_executable(braced_init
     braced_init.cpp)
 
+add_executable(copy_move
+    copy_move.cpp)
+
 add_executable(designated_init
     designated_init.c)
 

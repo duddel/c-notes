@@ -17,7 +17,6 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 */
-
 #ifndef C_NOTES_TEMPLATE_H
 #define C_NOTES_TEMPLATE_H
 

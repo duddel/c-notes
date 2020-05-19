@@ -17,7 +17,6 @@ freely, subject to the following restrictions:
    misrepresented as being the original software.
 3. This notice may not be removed or altered from any source distribution.
 */
-
 #include <cstdio> // printf()
 //#include <cstddef> // NULL
 
@@ -38,4 +37,13 @@ int main()
 //  func(0L);           // error: ambiguous call of func(). both func(int i)
                         // and func(char *i) are equal candidates to be called
 //  func(NULL);         // most likely, one of the two cases above
+
+    // all of these expressions are true for a pointer initialized with nullptr:
+    int *iptr = nullptr;
+    if(!iptr)           printf("!iptr\n");
+    if(iptr == nullptr) printf("iptr == nullptr\n");
+    if(iptr == NULL)    printf("iptr == NULL\n");
+    if(iptr == 0)       printf("iptr == 0\n");
+
+    return 0;
 }
