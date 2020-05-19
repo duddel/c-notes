@@ -22,7 +22,7 @@ freely, subject to the following restrictions:
 #include <algorithm> // sort()
 #include <array>
 
-template <class T, unsigned int N>
+template <class T, std::size_t N>
 void printArray(const std::array<T, N> &arr)
 {
     for (T const &a : arr)
