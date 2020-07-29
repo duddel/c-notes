@@ -40,5 +40,8 @@ add_executable(template
     template_impl.cpp
     template_main.cpp)
 
+add_executable(threading
+    threading.cpp)
+
 add_executable(variadic
     variadic.c)

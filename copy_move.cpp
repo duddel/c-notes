@@ -44,7 +44,8 @@ public:
 
 int main()
 {
-    // a copy constructor makes a copy of the argument.
+    // a copy constructor makes a copy of the argument, while passing
+    // an object to a function ("call-by-value"), for instance.
     //   a move constructor makes a "shallow copy" of the argument
     // and "transfers" the data, preventing unnecessary copies.
     // this allows functions to return objects without copying.
