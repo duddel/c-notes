@@ -42,6 +42,12 @@ add_executable(template
 
 add_executable(threading
     threading.cpp)
+# gcc implements std::thread via pthread
+if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    set(THREADS_PREFER_PTHREAD_FLAG ON)
+    find_package(Threads REQUIRED)
+    target_link_libraries(threading PRIVATE Threads::Threads)
+endif()
 
 add_executable(variadic
     variadic.c)
