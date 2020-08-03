@@ -49,5 +49,8 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     target_link_libraries(threading PRIVATE Threads::Threads)
 endif()
 
+add_executable(std_valarray
+    std_valarray.cpp)
+
 add_executable(variadic
     variadic.c)
