@@ -32,7 +32,7 @@ template <class T>
 void printTypeInfo()
 {
     const std::type_info &tT = typeid(T);
-    std::printf("%s (%u)\n", tT.name(), tT.hash_code());
+    std::printf("%s (%zX)\n", tT.name(), tT.hash_code());
 }
 
 int main()
