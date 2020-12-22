@@ -52,5 +52,8 @@ endif()
 add_executable(std_valarray
     std_valarray.cpp)
 
+add_executable(typeid
+    typeid.cpp)
+
 add_executable(variadic
     variadic.c)

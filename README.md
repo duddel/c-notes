@@ -15,4 +15,5 @@ Random notes related to **C** and **C++** about stuff I tend to forget.
 -   [template.h](template.h), [_impl.cpp](template_impl.cpp), [_main.cpp](template_main.cpp) - **C++** - _templates and specialization_
 -   [threading.cpp](threading.cpp) - **C++11** - _multithreading in C++11_
 -   [std_valarray.cpp](std_valarray.cpp) - **C++** - _arrays of numeric values_
+-   [typeid.cpp](typeid.cpp) - **C++** - _type information_
 -   [variadic.c](variadic.c) - **C, C++** - _variadic functions_
