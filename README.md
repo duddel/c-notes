@@ -10,6 +10,7 @@ Random notes related to **C** and **C++** about stuff I tend to forget.
 -   [designated_init.c](designated_init.c) - **C** - _designated initializers_
 -   [func_pointers.c](func_pointers.c) - **C, C++** - _function pointers_
 -   [nullptr.cpp](nullptr.cpp) - **C++11** - _the nullptr keyword_
+-   [pimpl.h](pimpl.h), [pimpl.cpp](pimpl.cpp) - **C++11** - _pimpl: pointer to implementation_
 -   [standard.cpp](standard.cpp) - **C++** - _the \_\_cplusplus macro_
 -   [struct_vs_class.cpp](struct_vs_class.cpp) - **C++** - _structure vs. class_
 -   [template.h](template.h), [_impl.cpp](template_impl.cpp), [_main.cpp](template_main.cpp) - **C++** - _templates and specialization_

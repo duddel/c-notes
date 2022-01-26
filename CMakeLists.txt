@@ -30,6 +30,9 @@ add_executable(func_pointers
 add_executable(nullptr
     nullptr.cpp)
 
+add_executable(pimpl
+    pimpl.cpp)
+
 add_executable(standard
     standard.cpp)
 
