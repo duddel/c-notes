@@ -58,5 +58,8 @@ add_executable(std_valarray
 add_executable(typeid
     typeid.cpp)
 
+add_executable(unique_ptr
+    unique_ptr.cpp)
+
 add_executable(variadic
     variadic.c)
