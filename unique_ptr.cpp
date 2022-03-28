@@ -19,6 +19,7 @@ freely, subject to the following restrictions:
 */
 #include <cstdio> // printf()
 #include <memory>
+#include <vector>
 
 class A
 {
@@ -60,7 +61,20 @@ int main()
         std::unique_ptr<A>(new A(99));
     }
 
-    B b;
+    {
+        // same here with members of B (no delete in dtor required)
+        B b;
+    }
+
+    {
+        // also works with vector etc.
+        std::vector<std::unique_ptr<A>> vecA;
+        vecA.emplace_back(new A(11));
+        vecA.emplace_back(new A(12));
+        vecA.emplace_back(new A(13));
+    }
+
+    std::printf("returning...\n");
 
     return 0;
 }
